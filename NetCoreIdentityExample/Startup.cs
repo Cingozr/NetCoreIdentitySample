@@ -99,7 +99,7 @@ namespace NetCoreIdentityExample
         {
             services.ConfigureApplicationCookie(cfg =>
             {
-                cfg.LoginPath = "/Account/Login";
+                cfg.LoginPath = "/Security/Login";
                 cfg.AccessDeniedPath = "/Security/AccessDenied";
                 cfg.SlidingExpiration = true;
                 cfg.ExpireTimeSpan = TimeSpan.FromSeconds(5);

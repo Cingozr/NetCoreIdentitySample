@@ -358,3 +358,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/NetCoreIdentityExample/Views/Shared/_ValidationScriptsPartial.cshtml
